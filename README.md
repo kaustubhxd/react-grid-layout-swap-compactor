@@ -1,5 +1,7 @@
 # react-grid-layout-swap-compactor
 
+![GIF](https://github.com/user-attachments/assets/55ce1046-f2cd-4c91-84c3-b6b304de02d5)
+
 A swap compactor for [react-grid-layout](https://github.com/react-grid-layout/react-grid-layout) v2. When you drag a node onto an adjacent same-row sibling, they **swap positions** instead of the sibling being pushed down.
 
 ## The Problem
