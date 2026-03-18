@@ -1,9 +1,14 @@
 {
   "name": "react-grid-layout-swap-compactor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Swap compactor for react-grid-layout: adjacent same-row siblings swap positions instead of being pushed down",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kaustubhxd/react-grid-layout-swap-compactor"
